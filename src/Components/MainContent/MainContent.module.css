@@ -5,6 +5,7 @@
     background-clip: border-box;
     z-index: -1;
     margin-top: -5rem;
+    position: relative;
 }
 
 .titleLogo {
@@ -14,7 +15,7 @@
 
 .textContainer {
     position: absolute;
-    bottom: 11rem;
+    bottom: 8rem;
     left: 3.5rem;
 }
 

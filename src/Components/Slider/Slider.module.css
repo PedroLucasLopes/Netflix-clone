@@ -1,0 +1,25 @@
+.sliderContainer {
+    margin-top: -4rem;
+    margin-bottom: 5.5rem;
+}
+
+.mediaBox {
+    transition: all .2s ease-out;
+}
+
+.mediaBox:hover {
+    transform: scale(1.1);
+    z-index: 1000;
+    position: relative;
+}
+
+.title {
+    margin-left: 2rem;
+    margin-bottom: .5rem;
+    font-size: 1.3rem;
+}
+
+.media {
+    border-radius: 3px;
+    width: 16rem;
+}

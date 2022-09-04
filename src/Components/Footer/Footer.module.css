@@ -1,0 +1,52 @@
+.footer {
+    width: 80vw;
+    height: 14rem;
+    margin: 0 auto;
+}
+
+.socialMedia {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.gridOptions {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.gridOptions div li {
+    margin-bottom: 1rem;
+}
+
+.gridOptions div li a {
+    color: #f9f9f98b;
+    font-size: .8rem;
+}
+
+.gridOptions div li a:hover {
+    text-decoration: underline;
+}
+
+.textHover {
+    margin-top: 1rem;
+    font-size: .9rem;
+}
+
+.textHover a {
+    color: #f9f9f98b;
+    border: 1px solid #f9f9f98b;
+    padding: .5rem;
+}
+
+.textHover:hover a {
+    color: #f9f9f9;
+}
+
+.textSubtitle {
+    font-size: .7rem;
+    color: #f9f9f98b;
+    margin: 2rem 0;
+}
