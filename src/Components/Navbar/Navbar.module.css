@@ -1,0 +1,96 @@
+.container {
+    width: 100vw;
+    margin-top: .75rem;
+    background-color: transparent;
+}
+
+.navbarBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2.5rem;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    font-size: .9rem;
+    margin-left: .5rem;
+}
+
+.logo {
+    width: 7.5rem;
+}
+
+.navOptions {
+    display: flex;
+    gap: 1rem;
+}
+
+.divNoSpace {
+    padding: 0 5rem;
+}
+
+.alignBell {
+    margin-top: 5px;
+}
+
+.input {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    animation: moveLeft .5s ease-out;
+}
+
+.input input::placeholder {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.inputBorder {
+    background-color: rgba(0, 0, 0, 0.351);
+    border: 1px solid #f9f9f9;
+    padding: .5rem;
+}
+
+.inputClick {
+    display: none;
+}
+
+.inputClickBlock {
+    display: block;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+}
+
+.profile svg {
+    transform: rotate(0);
+    transition: all .2s;
+}
+
+.profile:hover svg {
+    transform: rotate(180deg);
+}
+
+@keyframes moveLeft {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

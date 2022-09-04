@@ -1,0 +1,29 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/onePunchMan.png');
+    background-clip: border-box;
+    z-index: -1;
+    margin-top: -5rem;
+}
+
+.titleLogo {
+    width: 30rem;
+    margin-left: -15px;
+}
+
+.textContainer {
+    position: absolute;
+    bottom: 11rem;
+    left: 3.5rem;
+}
+
+.text {
+    width: 30rem;
+    margin: 20px 0;
+}
+
+.flexButton {
+    display: flex;
+    gap: 10px;
+}
