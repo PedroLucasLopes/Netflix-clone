@@ -3,9 +3,8 @@
     height: 100vh;
     background-image: url('../../assets/onePunchMan.png');
     background-clip: border-box;
-    z-index: -1;
+    background-repeat: no-repeat;
     margin-top: -5rem;
-    position: relative;
 }
 
 .titleLogo {
@@ -14,9 +13,9 @@
 }
 
 .textContainer {
-    position: absolute;
-    bottom: 8rem;
-    left: 3.5rem;
+    margin-left: 2rem;
+    padding-top: 10rem;
+    max-width: 50%;
 }
 
 .text {
